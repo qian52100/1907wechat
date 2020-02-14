@@ -9,7 +9,7 @@ class WechatController extends Controller
     public function index(){
         //原样输出echostr即可
         $echostr=$_GET['echostr'];
-        if(empty($echostr)){
+        if(!empty($echostr)){
             echo $echostr;die;
         }
         //文档接收普通消息
