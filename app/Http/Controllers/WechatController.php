@@ -10,7 +10,7 @@ class WechatController extends Controller
         //原样输出echostr即可
         $echostr=$_GET['echostr'];
         if(!empty($echostr)){
-            echo $echostr;
+            echo $echostr;die;
             echo '12345';die;
         }
         //文档接收普通消息
