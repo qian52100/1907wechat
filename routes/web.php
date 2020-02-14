@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//微信接口
+Route::get('/wx/index','WechatController@index');
