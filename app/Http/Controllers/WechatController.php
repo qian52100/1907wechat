@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 
 class WechatController extends Controller
 {
+    public function haha(){
+        echo "123";
+    }
     public function index(){
         //原样输出echostr即可
         $echostr=$_GET['echostr'];
